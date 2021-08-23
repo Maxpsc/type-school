@@ -1,5 +1,5 @@
 export type MyExclude<T, U extends keyof T> = {
-  [K in T extends U ? never : K]: T[K];
+  [K in keyof T as K extends U ? never : K]: T[K];
 };
 
 type Demo = {

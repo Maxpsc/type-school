@@ -1,0 +1,23 @@
+{
+  "name": "type-school",
+  "version": "1.0.0",
+  "description": "[type-challenges](https://github.com/type-challenges/type-challenges)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxpsc/type-school.git"
+  },
+  "author": "Maxpsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxpsc/type-school/issues"
+  },
+  "homepage": "https://github.com/Maxpsc/type-school#readme",
+  "dependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

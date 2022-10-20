@@ -1,4 +1,4 @@
-export type IsNever<T extends any> = [T] extends [never] ? true : false;
+type IsNever<T extends any> = [T] extends [never] ? true : false;
 
 type A = IsNever<never>; // expected to be true
 type B = IsNever<undefined>; // expected to be false
